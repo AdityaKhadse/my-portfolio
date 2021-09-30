@@ -94,12 +94,19 @@ header > nav > ul {
   padding: 1.2rem;
 }
 
+.home > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 .home > .heroText {
   display: flex;
   flex-direction: column;
   width: fit-content;
   text-align: left;
 }
+
+
 
 .home > .heroText > .headTitle {
   font-size: 1.6rem;
@@ -138,16 +145,26 @@ header > nav > ul {
 
 #skills > ul {
   list-style-type: none;
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
-#skills > ul > li {
+#skills > ul > div > progress{
+  width: 100%;
+}
+
+/* #skills > ul > div{
+  display: flex;
+} */
+
+#skills > ul > div {
   padding: 0.4rem 0.6rem;
   background-color: var(--color-primary);
   color: var(--color-background);
   border-radius: 0.4rem;
+  margin-bottom: 0.4rem;
+  width: 338%;
 }
 
 .projectCard {
@@ -172,7 +189,7 @@ header > nav > ul {
   min-width: 60%;
 }
 .projectCard > .projectCardInner1 > img {
-  width: 10rem;
+  width: 7rem;
   border-radius: 0.8rem;
 }
 .projectCard > .projectCardInner2 > .title {

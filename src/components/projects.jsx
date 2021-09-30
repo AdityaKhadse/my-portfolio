@@ -12,11 +12,11 @@ const ProjectCard = ({ img, title, subtitle, desc, stack, live, code }) => {
         <div className="title">{title}</div>
         <div className="subtitle">{subtitle}</div>
         <div className="desc">{desc}</div>
-        <ul className="teckStack">
+        {/* <ul className="teckStack">
             {stack.map((tech) => (
             <Skill key={tech} name={tech} />
             ))}
-        </ul>
+        </ul> */}
         <div className="links">
             <a href={live} target="_blank">
             Live
@@ -39,7 +39,7 @@ const Projects = () => {
       desc: "An app to play aartis and to get the lyrics of all of them with firebase as backend.",
       stack: ["Android", "Firebase", "JAVA"],
       live: "https://play.google.com/store/apps/details?id=com.hashtagitco.aarti_sangrah",
-      code: "",
+      code: "https://github.com/hashtag-it-consultancy/Aarti_Sangrah",
     },
     {
       img: CodeImg,
