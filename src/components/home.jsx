@@ -6,11 +6,11 @@ const Home = () => {
     <section className="home">
       <img src={heroImg} width={350} alt="display picture" />
       <div className="heroText">
-        <div className="headTitle">Namaskar! 👋</div>
-        <div className="title">मेरा नाम Aditya Khadse</div>
+        <div className="headTitle">नमस्कार ! 👋</div>
+        <div className="title">I'm Aditya Khadse</div>
         <div className="subTitle">
-          I write <span id="textCode">code {"</>"}</span> and{" "}
-          <span id="textMelody">melodies!</span>
+          I love <span id="textCode">Dogs </span> and{" "}
+          <span id="textMelody">Cricket!</span>
         </div>
         <div className="socialHandles">
           <a href="http://github.com/AdityaKhadse" target="_blank">

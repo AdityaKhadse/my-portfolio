@@ -45,6 +45,10 @@ h2 {
   margin: 1.4rem 0 0.8rem 0;
 }
 
+h {
+  margin: 1.4rem 0 0.8rem 0;
+}
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -148,8 +152,10 @@ header > nav > ul {
 
 .projectCard {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-right: 25%;
 }
+
 .projectCardsContainer {
   width: 100%;
   overflow-x: scroll;
@@ -157,32 +163,62 @@ header > nav > ul {
   gap: 1.2rem;
   padding-bottom: 1rem;
 }
-.projectCard > img {
-  width: 16rem;
+.projectCard > .projectCardInner1 {
+  /* margin-right: 10%; */
+  
+}
+.projectCard > .projectCardInner2 {
+  margin-left: 10%;
+  min-width: 60%;
+}
+.projectCard > .projectCardInner1 > img {
+  width: 10rem;
   border-radius: 0.8rem;
 }
-.projectCard > .title {
+.projectCard > .projectCardInner2 > .title {
   margin-top: 0.4rem;
   font-size: 1.2rem;
   font-weight: 700;
 }
-.projectCard > .subtitle {
+.projectCard > .projectCardInner2 > .subtitle {
   font-weight: 200;
 }
-.projectCard > .desc {
+.projectCard > .projectCardInner2 > .desc {
   margin-top: 0.4rem;
 }
-.projectCard > .teckStack {
+.projectCard > .projectCardInner2 > .teckStack {
   margin-top: 0.4rem;
   list-style-type: none;
-  display: inline-flex;
+  display: block;
   gap: 0.4rem;
 }
-.projectCard > .links {
+.projectCard > .projectCardInner2 > .links {
   margin-top: 0.8rem;
   display: inline-flex;
   gap: 1rem;
   font-weight: 700;
+}
+
+.work {
+  margin-bottom: 0.8rem;
+}
+
+.work > ul {
+  margin-left: 0.8rem;
+}
+
+.work > ul > .title{
+  margin-top: 0.4rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.work > ul > .subtitle{
+  font-weight: 200;
+}
+
+.work > ul > .desc {
+  margin-top: 0.4rem;
 }
 
 footer {
