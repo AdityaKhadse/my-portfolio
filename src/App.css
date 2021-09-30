@@ -242,7 +242,8 @@ footer {
     justify-content: space-between;
   }
   .home > img {
-    width: 50%;
+    width: 40%;
+    border-radius: 50%;
   }
   .home > .heroText > .headTitle {
     font-size: 2rem;
